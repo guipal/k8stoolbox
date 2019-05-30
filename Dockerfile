@@ -1,3 +1,2 @@
 FROM debian
 RUN apt-get update && apt-get install -y dnsutils 
-CMD ["sleep","3600"]
